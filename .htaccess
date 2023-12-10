@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# RewriteRule para el detalle del material
+RewriteRule ^producto/([0-9]+)$ detalleMaterial.php?id=$1
+
+# RewriteRule para el visualizar la imagen del material
+RewriteRule ^visualizaProducto/([0-9]+)$ visualizaMaterial.php?id=$1
+
+

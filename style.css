@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#sesion-info {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+}
+
+table {
+    width: 60%; 
+    height: 60%;
+    margin: 20px auto;
+    border-collapse: collapse; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    color: #333;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.formularioMaterial {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 60%;
+    border-radius: 5px;
+}
+
+.formularioMaterial label {
+    display: block;
+    margin: 10px 0;
+}
+
+.formularioMaterial input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formularioMaterial input[type="submit"] {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formularioMaterial input[type="submit"]:hover {
+    background-color: #555;
+}
